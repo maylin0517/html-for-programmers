@@ -9,59 +9,63 @@
 </head>
 
 <body>
-  <h2>Recipient Details</h2>
-    <!-- Recipient Section -->
-  <form action="" method="">
-      <!-- Full Name -->
-    <label for="full-name">Full Name</label>
-    <br>
-    <input type="text" id="full-name">
-    <br>
-      <!-- Phone # -->
-    <label for="telephone">Telephone Number</label>
-    <br>
-    <input type="tel" id="telephone">
-    <br>
-      <!-- Address -->
-    <label for="address">Address</label>
-    <br>
-    <input type="text" id="address">
-    <br>
-  </form>
-
-  <h2>Order</h2>
-    <!-- Order Section -->
-  <form action="" method="post">
-      <!-- Bouquet -->
-    <label for="bouquet-type">Bouquet Type</label>
-    <br>
-    <select name="bouquet-type" id="bouquet-type">
-      <option value="basic">Basic Bouquet - $24.99</option>
-      <option value="premium">Premium Bouquet - $49.99</option>
-      <option value="premium-chocolate">Premium Bouquet + Chocolate - $69.99</option>
-    </select>
-  </form>
-
-  <h2>Sender Details</h2>
-    <!-- Sender Form -->
-  <form action="" method="post">
-      <!-- Sender FN -->
-    <label for="sender-fn">Full Name</label>
-    <br>
-    <input type="text" id="sender-fn">
-    <br>
-      <!-- Email Adress -->
-    <label for="email">Email Address</label>
-    <br>
-    <input type="email" id="email">
-    <br>
-      <!-- Message -->
-    <label for="message">Message</label>
-    <br>
-    <input type="text" id="message">
-    <br>
-      <!-- Submit Button -->
-    <button type="submit">Checkout</button>
+  <form action="">
+    <!-- contact -->
+    <div>
+      <!-- recipient -->
+      <div>
+        <h2>Recipient Details</h2>
+        <!-- full name -->
+        <label for="rec-fn">Full Name</label>
+        <br>
+        <input type="text" id="rec-fn">
+        <br>
+        <!-- phone # -->
+        <label for="telephone">Telephone Number</label>
+        <br>
+        <input type="tel" id="telephone">
+        <br>
+        <!-- address -->
+        <label for="address">Address</label>
+        <br>
+        <input type="text" id="address">
+        <br>
+      </div>
+      <!-- sender -->
+      <div>
+        <h2>Sender Details</h2>
+        <!-- full name -->
+        <label for="send-fn">Full Name</label>
+        <br>
+        <input type="text" id="send-fn">
+        <br>
+        <!-- email -->
+        <label for="email">Email Address</label>
+        <br>
+        <input type="email" id="email">
+        <br>
+      </div>
+    </div>
+    <!-- order -->
+    <div>
+      <h2>Order</h2>
+      <!-- bouquet type -->
+      <label for="bouquet-type">Bouquet Type</label>
+      <br>
+      <select name="bouquet-type" id="bouquet-type">
+        <option value="basic">Basic Bouquet - $24.99</option>
+        <option value="premium">Premium Bouquet - $49.99</option>
+        <option value="premium-chocolate">Premium Bouquet + Chocolate - $69.99</option>
+      </select>
+      <br>
+      <!-- message -->
+      <label for="message">Message</label>
+      <br>
+      <input type="text" id="message">
+      <br>
+      <!-- button -->
+      <button type="submit">Checkout</button>
+    </div>
   </form>
 </body>
 
